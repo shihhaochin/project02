@@ -1,3 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .homepage {
   background-image: url("../img/homepageImg.png");
+}
+.homepagebtn {
+  transition: all 0.3s;
+  position: relative;
+  span {
+    position: absolute;
+    top: -2px;
+    left: 80%;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    transition: all 0.5s;
+  }
+  span::before {
+    content: "";
+    position: absolute;
+    top: 54px;
+    right: 120px;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    transition: all 0.5s;
+  }
+}
+
+.homepagebtn:hover {
+  border: 2px solid rgb(58, 216, 216);
+  color: rgb(58, 216, 216);
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px rgb(58, 216, 216);
+  span {
+    position: absolute;
+    top: -2px;
+    left: 15%;
+    width: 40px;
+    height: 2px;
+    background-color: black;
+  }
+  span::before {
+    content: "";
+    position: absolute;
+    top: 54px;
+    right: -100px;
+    width: 40px;
+    height: 2px;
+    background-color: black;
+  }
+}
+
+.animation-moveInBottom {
+  animation: moveInBottom 1s ease-out;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }

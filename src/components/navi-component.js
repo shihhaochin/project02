@@ -21,10 +21,10 @@ const naviComponent = () => {
             <Link to="/designer">王牌設計師</Link>
           </li>
           <li className="mr-6 ml-6 cursor-pointer">
-            <Link to="/hairStyle">男子髮型</Link>
+            <Link to="/aboutus">關於我們</Link>
           </li>
           <li className="mr-6 ml-6 cursor-pointer">
-            <Link to="/address">店家位置</Link>
+            <Link to="/services">服務項目</Link>
           </li>
           <li className="mr-6 ml-6 cursor-pointer">
             <Link to="/reserve">預約剪髮</Link>
