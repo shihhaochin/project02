@@ -73,6 +73,21 @@ body {
   min-height: 75vh;
 }
 
+.services-animation {
+  transition: 0.3s;
+}
+
+.services-animation:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 0.5rem black;
+}
+
+.price-animation:hover {
+  color: white;
+  background-color: rgb(202, 138, 47);
+  border: 2px solid rgb(202, 138, 47);
+}
+
 .animation-moveInBottom {
   animation: moveInBottom 1s ease-out;
 }
