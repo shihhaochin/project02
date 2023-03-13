@@ -3,6 +3,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.header {
+  min-height: 6rem;
+}
 .homepage {
   background-image: url("../img/homepageImg.png");
 }
@@ -52,6 +55,18 @@ body {
     height: 2px;
     background-color: black;
   }
+}
+
+.designerPage {
+  background-image: url("../img/designerbg.png");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+.designerBg {
+  min-height: 75vh;
 }
 
 .animation-moveInBottom {

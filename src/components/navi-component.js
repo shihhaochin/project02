@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const naviComponent = () => {
   return (
-    <header className="absolute top-0 right-0 w-full h-24  z-50 flex justify-between items-center flex-wrap bg-black/80   ">
+    <header className="absolute top-0 right-0 w-full   z-50 flex justify-between items-center flex-wrap bg-black header  ">
       <div id="navi-left" className="">
         <p
-          className="text-4xl text-white ml-6"
+          className="text-4xl text-white ml-6  "
           style={{ "font-family": '"La Belle Aurore", "cursive"' }}
         >
           GentlemanHair
         </p>
       </div>
-      <div id="navi-right" className="">
+      <div id="navi-right" className="my-3">
         <ul className="flex  text-3xl text-white flex-wrap  ">
           <li className="mr-6 ml-6 cursor-pointer">
             <Link to="/">首頁</Link>
