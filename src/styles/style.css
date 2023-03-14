@@ -88,6 +88,19 @@ body {
   border: 2px solid rgb(202, 138, 47);
 }
 
+.reserveBg {
+  background-image: url(../img/homepageImg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.reserveBg .reserveBgFilter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 .animation-moveInBottom {
   animation: moveInBottom 1s ease-out;
 }
