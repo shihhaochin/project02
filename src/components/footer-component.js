@@ -1,4 +1,8 @@
 import React from "react";
+import footerImg01 from "../img/footer01.png";
+import footerImg02 from "../img/footer02.png";
+import footerImg03 from "../img/footer03.png";
+import footerImg04 from "../img/footer04.png";
 
 const footerComponent = () => {
   return (
@@ -46,9 +50,31 @@ const footerComponent = () => {
       </div>
 
       <div className="mt-12 bg-black">
-        <h1 className="text-white text-5xl mb-10 cursor-pointer relative footertitle ">
+        <h1 className="text-white text-5xl mb-10 cursor-pointer relative footertitle text-center ">
           Follow Us
         </h1>
+        <div className="flex gap-3 flex-wrap">
+          <img
+            src={footerImg01}
+            alt="instagram-logo"
+            className="h-20 bg-gray-500 cursor-pointer footerImg "
+          />
+          <img
+            src={footerImg02}
+            alt="twitter-logo"
+            className="h-20 bg-gray-500 cursor-pointer footerImg"
+          />
+          <img
+            src={footerImg03}
+            alt="facebook-logo"
+            className="h-20 bg-gray-500 cursor-pointer footerImg"
+          />
+          <img
+            src={footerImg04}
+            alt="google-logo"
+            className="h-20 bg-gray-500 cursor-pointer footerImg"
+          />
+        </div>
       </div>
     </div>
   );

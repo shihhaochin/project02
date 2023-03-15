@@ -6,6 +6,7 @@ import introduceImg03 from "../img/introduce03.png";
 import customer01 from "../img/customer01.png";
 import customer02 from "../img/customer02.png";
 import customer03 from "../img/customer03.png";
+import FooterComponent from "../components/footer-component";
 
 const aboutusPage = () => {
   return (
@@ -106,6 +107,7 @@ const aboutusPage = () => {
           </div>
         </div>
       </div>
+      <FooterComponent />
     </div>
   );
 };

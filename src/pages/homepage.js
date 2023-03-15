@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const homepage = () => {
   return (
@@ -16,7 +15,7 @@ const homepage = () => {
           讓你從男孩蛻變成男人！
         </p>
         <button className="text-white pointer ml-60 text-3xl  border-white border-solid border-2 py-2 px-6 homepagebtn  ">
-          <Link to="/reserve">馬上預約</Link>
+          馬上預約
           <span></span>
         </button>
       </div>

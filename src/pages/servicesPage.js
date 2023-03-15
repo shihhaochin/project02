@@ -3,6 +3,7 @@ import scissorsImg from "../img/scissors.png";
 import razor from "../img/razor.png";
 import razor01 from "../img/razor01.png";
 import hairDye from "../img/hair-product.png";
+import FooterComponent from "../components/footer-component";
 
 const servicesPage = () => {
   return (
@@ -102,6 +103,8 @@ const servicesPage = () => {
           *價目表上消費的客人，皆免費附一杯飲品。（18歲以下不提供酒精類飲料）
         </p>
       </div>
+
+      <FooterComponent />
     </div>
   );
 };

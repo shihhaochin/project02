@@ -149,6 +149,13 @@ body {
   color: white;
   transform: translateY(-5px);
 }
+.footerImg {
+  transition: 0.3s;
+}
+.footerImg:hover {
+  background-color: white;
+  transform: translateY(-5px);
+}
 
 .animation-moveInBottom {
   animation: moveInBottom 1s ease-out;
