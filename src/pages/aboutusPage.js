@@ -28,8 +28,8 @@ const aboutusPage = () => {
             architecto, nulla placeat maxime iure? Reprehenderit praesentium
             iure similique quasi voluptatibus quis doloribus?
           </p>
-          <p className="text-amber-800 px-3 py-2 border-2 border-solid border-amber-800 cursor-pointer">
-            MORE ABOUT US
+          <p className="text-amber-800 px-3 py-2 border-2 border-solid border-amber-800 cursor-pointer relative aboutus-btn">
+            MORE ABOUT US <span className="aboutus-btn-bg"></span>
           </p>
         </div>
         <div id="introduce-right" className="relative w-96 h-192 ">

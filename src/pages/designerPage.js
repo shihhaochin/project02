@@ -3,7 +3,7 @@ import designer01 from "../img/designer01.png";
 import designer02 from "../img/designer02.png";
 import designer03 from "../img/designer03.png";
 import designer04 from "../img/designer04.png";
-
+import FooterComponent from "../components/footer-component";
 const designerPage = () => {
   return (
     <div className="relative">
@@ -137,8 +137,7 @@ const designerPage = () => {
           </p>
           <h1 className="text-2xl">--Friedrich Nietzsche</h1>
         </div>
-
-        <div className="w-full h-96 bg-slate-500">footer</div>
+        <FooterComponent />
       </div>
     </div>
   );
