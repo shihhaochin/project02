@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import designer01 from "../img/designer01.png";
 import designer02 from "../img/designer02.png";
 import designer03 from "../img/designer03.png";
 import designer04 from "../img/designer04.png";
 import FooterComponent from "../components/footer-component";
-const designerPage = () => {
+const designerPage = ({
+  setHomepageChange,
+  setDesignerChange,
+  setServicesChange,
+  setAboutusChange,
+  setReserveChange,
+  setMemberChange,
+}) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    setHomepageChange(false);
+    setDesignerChange(true);
+    setServicesChange(false);
+    setAboutusChange(false);
+    setReserveChange(false);
+    setMemberChange(false);
+  });
+
   return (
     <div className="relative">
       <div id="designerPage" className="designerPage"></div>

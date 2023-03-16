@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import scissorsImg from "../img/scissors.png";
 import razor from "../img/razor.png";
 import razor01 from "../img/razor01.png";
 import hairDye from "../img/hair-product.png";
 import FooterComponent from "../components/footer-component";
 
-const servicesPage = () => {
+const servicesPage = ({
+  setHomepageChange,
+  setDesignerChange,
+  setServicesChange,
+  setAboutusChange,
+  setReserveChange,
+  setMemberChange,
+}) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    setHomepageChange(false);
+    setDesignerChange(false);
+    setServicesChange(true);
+    setAboutusChange(false);
+    setReserveChange(false);
+    setMemberChange(false);
+  });
+
   return (
     <div id="servicesPage" className="min-h-screen w-full bg-slate-200">
       <div

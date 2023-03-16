@@ -1,21 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-const naviComponent = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  let [homepageChange, setHomepageChange] = useState(true);
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  let [designerChange, setDesignerChange] = useState(false);
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  let [servicesChange, setServicesChange] = useState(false);
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  let [aboutusChange, setAboutusChange] = useState(false);
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  let [reserveChange, setReserveChange] = useState(false);
-
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  let [memberChange, setMemberChange] = useState(false);
-
+const naviComponent = ({
+  homepageChange,
+  designerChange,
+  servicesChange,
+  aboutusChange,
+  reserveChange,
+  memberChange,
+}) => {
   return (
     <header className="fixed top-0 right-0 w-full   z-50 flex justify-between items-center flex-wrap bg-black/80 header  ">
       <div id="navi-left" className="">
@@ -29,38 +22,18 @@ const naviComponent = () => {
       <div id="navi-right" className="my-3">
         <ul className="flex  text-3xl text-white items-center flex-wrap  ">
           {homepageChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl">
+            <li className="mr-6 ml-6 cursor-pointer text-5xl text-cyan-400">
               <Link to="/">首頁</Link>
             </li>
           )}
           {homepageChange === false && (
-            <li
-              className="mr-6 ml-6 cursor-pointer"
-              onClick={() => {
-                setHomepageChange(true);
-                setDesignerChange(false);
-                setServicesChange(false);
-                setAboutusChange(false);
-                setReserveChange(false);
-                setMemberChange(false);
-              }}
-            >
+            <li className="mr-6 ml-6 cursor-pointer">
               <Link to="/">首頁</Link>
             </li>
           )}
 
           {designerChange === false && (
-            <li
-              className="mr-6 ml-6 cursor-pointer"
-              onClick={() => {
-                setHomepageChange(false);
-                setDesignerChange(true);
-                setServicesChange(false);
-                setAboutusChange(false);
-                setReserveChange(false);
-                setMemberChange(false);
-              }}
-            >
+            <li className="mr-6 ml-6 cursor-pointer">
               <Link to="/designer">王牌設計師</Link>
             </li>
           )}
@@ -71,17 +44,7 @@ const naviComponent = () => {
           )}
 
           {servicesChange === false && (
-            <li
-              className="mr-6 ml-6 cursor-pointer"
-              onClick={() => {
-                setHomepageChange(false);
-                setDesignerChange(false);
-                setServicesChange(true);
-                setAboutusChange(false);
-                setReserveChange(false);
-                setMemberChange(false);
-              }}
-            >
+            <li className="mr-6 ml-6 cursor-pointer">
               <Link to="/services">服務項目</Link>
             </li>
           )}
@@ -92,17 +55,7 @@ const naviComponent = () => {
           )}
 
           {aboutusChange === false && (
-            <li
-              className="mr-6 ml-6 cursor-pointer"
-              onClick={() => {
-                setHomepageChange(false);
-                setDesignerChange(false);
-                setServicesChange(false);
-                setAboutusChange(true);
-                setReserveChange(false);
-                setMemberChange(false);
-              }}
-            >
+            <li className="mr-6 ml-6 cursor-pointer">
               <Link to="/aboutus">關於我們</Link>
             </li>
           )}
@@ -114,17 +67,7 @@ const naviComponent = () => {
           )}
 
           {reserveChange === false && (
-            <li
-              className="mr-6 ml-6 cursor-pointer"
-              onClick={() => {
-                setHomepageChange(false);
-                setDesignerChange(false);
-                setServicesChange(false);
-                setAboutusChange(false);
-                setReserveChange(true);
-                setMemberChange(false);
-              }}
-            >
+            <li className="mr-6 ml-6 cursor-pointer">
               <Link to="/reserve">預約剪髮</Link>
             </li>
           )}
@@ -135,17 +78,7 @@ const naviComponent = () => {
           )}
 
           {memberChange === false && (
-            <li
-              className="mr-6 ml-6 cursor-pointer"
-              onClick={() => {
-                setHomepageChange(false);
-                setDesignerChange(false);
-                setServicesChange(false);
-                setAboutusChange(false);
-                setReserveChange(false);
-                setMemberChange(true);
-              }}
-            >
+            <li className="mr-6 ml-6 cursor-pointer">
               <Link to="/membership">會員中心</Link>
             </li>
           )}

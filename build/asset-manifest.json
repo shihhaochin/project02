@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.07fba61b.css",
-    "main.js": "./static/js/main.78318aa6.js",
+    "main.css": "./static/css/main.23a4d0de.css",
+    "main.js": "./static/js/main.a99c774d.js",
     "static/media/customer01.png": "./static/media/customer01.ff161cc66b36f7c75043.png",
     "static/media/introduce02.png": "./static/media/introduce02.101b5befd36943f916fb.png",
     "static/media/reserve.png": "./static/media/reserve.daf16ec6f4ce852209a1.png",
@@ -26,11 +26,11 @@
     "static/media/footer02.png": "./static/media/footer02.8e65601e69067aadfe55.png",
     "static/media/hair-product.png": "./static/media/hair-product.f395549d3745c9603008.png",
     "index.html": "./index.html",
-    "main.07fba61b.css.map": "./static/css/main.07fba61b.css.map",
-    "main.78318aa6.js.map": "./static/js/main.78318aa6.js.map"
+    "main.23a4d0de.css.map": "./static/css/main.23a4d0de.css.map",
+    "main.a99c774d.js.map": "./static/js/main.a99c774d.js.map"
   },
   "entrypoints": [
-    "static/css/main.07fba61b.css",
-    "static/js/main.78318aa6.js"
+    "static/css/main.23a4d0de.css",
+    "static/js/main.a99c774d.js"
   ]
 }

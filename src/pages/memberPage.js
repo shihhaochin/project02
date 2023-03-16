@@ -1,11 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import facebookImg from "../img/facebook.png";
 import googleImg from "../img/google.png";
 import FooterComponent from "../components/footer-component";
 
-const memberPage = () => {
+const memberPage = ({
+  setHomepageChange,
+  setDesignerChange,
+  setServicesChange,
+  setAboutusChange,
+  setReserveChange,
+  setMemberChange,
+}) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   let [loginChange, setLoginChange] = useState(false);
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    setHomepageChange(false);
+    setDesignerChange(false);
+    setServicesChange(false);
+    setAboutusChange(false);
+    setReserveChange(false);
+    setMemberChange(true);
+  });
 
   return (
     <div>

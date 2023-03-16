@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import beardImg from "../img/beard.png";
 import introduceImg01 from "../img/introduce01.png";
 import introduceImg02 from "../img/introduce02.png";
@@ -8,7 +8,24 @@ import customer02 from "../img/customer02.png";
 import customer03 from "../img/customer03.png";
 import FooterComponent from "../components/footer-component";
 
-const aboutusPage = () => {
+const aboutusPage = ({
+  setHomepageChange,
+  setDesignerChange,
+  setServicesChange,
+  setAboutusChange,
+  setReserveChange,
+  setMemberChange,
+}) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    setHomepageChange(false);
+    setDesignerChange(false);
+    setServicesChange(false);
+    setAboutusChange(true);
+    setReserveChange(false);
+    setMemberChange(false);
+  });
+
   return (
     <div id="aboutusPage">
       <div className="w-full flex justify-center items-start mt-40 gap-36 flex-wrap   ">

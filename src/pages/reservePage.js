@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import reserveImg from "../img/reserve.png";
 
-const reservePage = () => {
+const reservePage = ({
+  setHomepageChange,
+  setDesignerChange,
+  setServicesChange,
+  setAboutusChange,
+  setReserveChange,
+  setMemberChange,
+}) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    setHomepageChange(false);
+    setDesignerChange(false);
+    setServicesChange(false);
+    setAboutusChange(false);
+    setReserveChange(true);
+    setMemberChange(false);
+  });
   return (
     <div
       id="reservePage"
