@@ -21,7 +21,7 @@ const homepage = ({
   return (
     <div className="homepage h-screen w-full bg-center bg-cover relative">
       <div className="absolute top-0 left-0 h-screen w-full bg-black/70 flex flex-col justify-center items-start">
-        <p className="text-white text-3xl ml-8 mb-10  ">
+        <p className="text-white text-3xl ml-8 mb-10   ">
           剪髮不只是剪髮，而是一趟旅程。
         </p>
         <h1 className="text-white text-6xl ml-8 mb-10 animation-moveInBottom">

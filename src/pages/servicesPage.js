@@ -27,9 +27,9 @@ const servicesPage = ({
     <div id="servicesPage" className="min-h-screen w-full bg-slate-200">
       <div
         id="services"
-        className="w-full min-h-1/3 flex flex-wrap justify-center items-center gap-6 mb-20   "
+        className="w-full min-h-1/3 flex flex-wrap justify-center items-center gap-6 mb-20 services-box   "
       >
-        <div className="bg-white w-52 h-80 mt-40 flex flex-col items-center justify-evenly cursor-pointer border-2 border-black services-animation ">
+        <div className="bg-white w-52 h-80 mt-40 flex flex-col items-center justify-evenly cursor-pointer border-2 border-black services-animation  ">
           <img src={scissorsImg} alt="scissorsImg" className="h-24" />
           <h1 className="text-3xl">Haircut Styles</h1>
           <p

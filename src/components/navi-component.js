@@ -22,7 +22,7 @@ const naviComponent = ({
       <div id="navi-right" className="my-3">
         <ul className="flex  text-3xl text-white items-center flex-wrap  ">
           {homepageChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl text-cyan-400">
+            <li className="mr-6 ml-6 cursor-pointer text-4xl text-cyan-400">
               <Link to="/">首頁</Link>
             </li>
           )}
@@ -38,7 +38,7 @@ const naviComponent = ({
             </li>
           )}
           {designerChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl  text-red-400">
+            <li className="mr-6 ml-6 cursor-pointer text-4xl  text-red-400">
               <Link to="/designer">王牌設計師</Link>
             </li>
           )}
@@ -49,7 +49,7 @@ const naviComponent = ({
             </li>
           )}
           {servicesChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl text-blue-200">
+            <li className="mr-6 ml-6 cursor-pointer text-4xl text-blue-200">
               <Link to="/services">服務項目</Link>
             </li>
           )}
@@ -61,7 +61,7 @@ const naviComponent = ({
           )}
 
           {aboutusChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl text-amber-800">
+            <li className="mr-6 ml-6 cursor-pointer text-4xl text-amber-800">
               <Link to="/aboutus">關於我們</Link>
             </li>
           )}
@@ -72,7 +72,7 @@ const naviComponent = ({
             </li>
           )}
           {reserveChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl text-amber-500">
+            <li className="mr-6 ml-6 cursor-pointer text-4xl text-amber-500">
               <Link to="/reserve">預約剪髮</Link>
             </li>
           )}
@@ -83,7 +83,7 @@ const naviComponent = ({
             </li>
           )}
           {memberChange === true && (
-            <li className="mr-6 ml-6 cursor-pointer text-5xl text-green-300">
+            <li className="mr-6 ml-6 cursor-pointer text-4xl text-green-300">
               <Link to="/membership">會員中心</Link>
             </li>
           )}

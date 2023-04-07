@@ -33,7 +33,7 @@ const aboutusPage = ({
           id="introduce-left"
           className="w-96 flex flex-col items-center gap-8"
         >
-          <h1 className="text-2xl">Introducing</h1>
+          <h1 className="text-2xl mt-12">Introducing</h1>
           <p className="text-4xl text-amber-800">The GentlemanHair</p>
           <p className="text-5xl text-amber-800">Science 2023</p>
           <img src={beardImg} alt="beardImg" className="h-40" />

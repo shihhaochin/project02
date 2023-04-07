@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.23a4d0de.css",
-    "main.js": "./static/js/main.a99c774d.js",
+    "main.css": "./static/css/main.866d8504.css",
+    "main.js": "./static/js/main.6ce41b8c.js",
     "static/media/customer01.png": "./static/media/customer01.ff161cc66b36f7c75043.png",
     "static/media/introduce02.png": "./static/media/introduce02.101b5befd36943f916fb.png",
     "static/media/reserve.png": "./static/media/reserve.daf16ec6f4ce852209a1.png",
@@ -16,21 +16,19 @@
     "static/media/designer01.png": "./static/media/designer01.0ad3b81446fbc0c695a2.png",
     "static/media/homepageImg.png": "./static/media/homepageImg.cc82469ed91b3241b2ff.png",
     "static/media/scissors.png": "./static/media/scissors.44950d1a801d3c42431b.png",
-    "static/media/google.png": "./static/media/google.e12914ad8afda3f6f2e8.png",
     "static/media/razor01.png": "./static/media/razor01.0cf2e2edce44ad664743.png",
     "static/media/footer04.png": "./static/media/footer04.6eb0d7e6ec3da4b1b1d2.png",
     "static/media/razor.png": "./static/media/razor.22437d8964106b4cd4c9.png",
-    "static/media/facebook.png": "./static/media/facebook.795fce8e464693d7346d.png",
     "static/media/footer01.png": "./static/media/footer01.bc603acad2a8cb3bd098.png",
     "static/media/beard.png": "./static/media/beard.7427f4ede9b9cdf1e623.png",
     "static/media/footer02.png": "./static/media/footer02.8e65601e69067aadfe55.png",
     "static/media/hair-product.png": "./static/media/hair-product.f395549d3745c9603008.png",
     "index.html": "./index.html",
-    "main.23a4d0de.css.map": "./static/css/main.23a4d0de.css.map",
-    "main.a99c774d.js.map": "./static/js/main.a99c774d.js.map"
+    "main.866d8504.css.map": "./static/css/main.866d8504.css.map",
+    "main.6ce41b8c.js.map": "./static/js/main.6ce41b8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.23a4d0de.css",
-    "static/js/main.a99c774d.js"
+    "static/css/main.866d8504.css",
+    "static/js/main.6ce41b8c.js"
   ]
 }

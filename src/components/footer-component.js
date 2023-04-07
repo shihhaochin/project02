@@ -6,7 +6,7 @@ import footerImg04 from "../img/footer04.png";
 
 const footerComponent = () => {
   return (
-    <div className="w-full h-96 bg-black flex justify-evenly flex-wrap  ">
+    <div className="w-full h-96 bg-black flex justify-evenly flex-wrap footer-box  ">
       <div className="mt-12 ">
         <h1 className="text-white text-5xl mb-10 cursor-pointer relative footertitle  ">
           Company
@@ -26,7 +26,7 @@ const footerComponent = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-12 ">
+      <div className="mt-12 bg-black  ">
         <h1 className="text-white text-5xl mb-10 cursor-pointer relative footertitle ">
           Get Help
         </h1>

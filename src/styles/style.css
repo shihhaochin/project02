@@ -176,6 +176,48 @@ body {
   animation: moveInBottom 1s ease-out;
 }
 
+@media screen and (max-height: 1000px) {
+  .homepage div {
+    padding-top: 5rem !important;
+  }
+  .member-bg {
+    min-height: 100vh;
+  }
+  .member-bg div {
+    margin-top: 3rem !important;
+  }
+  .member-bg div section {
+    gap: 1rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homepage div {
+    padding-top: 15rem !important;
+  }
+  .homepage div p {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .homepage div h1 {
+    font-size: 2.5rem !important;
+  }
+  .homepage div button {
+    font-size: 1rem !important;
+    margin-left: 6rem !important;
+  }
+  .footer-box {
+    min-height: 100vh !important;
+  }
+  .services-box {
+    padding-top: 10rem !important;
+  }
+  .services-box div {
+    margin-top: 3rem !important;
+  }
+  .member-bg div {
+    margin-top: 4.5rem !important;
+  }
+}
 @keyframes moveInBottom {
   0% {
     opacity: 0;
