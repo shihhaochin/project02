@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.866d8504.css",
-    "main.js": "./static/js/main.6ce41b8c.js",
-    "static/media/customer01.png": "./static/media/customer01.ff161cc66b36f7c75043.png",
-    "static/media/introduce02.png": "./static/media/introduce02.101b5befd36943f916fb.png",
-    "static/media/reserve.png": "./static/media/reserve.daf16ec6f4ce852209a1.png",
-    "static/media/introduce01.png": "./static/media/introduce01.8f458cc9eda501d24882.png",
-    "static/media/customer03.png": "./static/media/customer03.9d1b68ab837e71c10e32.png",
+    "main.css": "./static/css/main.beb4c34f.css",
+    "main.js": "./static/js/main.834ae1de.js",
     "static/media/designerbg.png": "./static/media/designerbg.dfb358a5dd1debba0781.png",
-    "static/media/designer02.png": "./static/media/designer02.b4ce014d3f61dca238c2.png",
-    "static/media/introduce03.png": "./static/media/introduce03.221fb3619b5c32a7d218.png",
-    "static/media/designer03.png": "./static/media/designer03.c3de9dc266e5a39cb6c6.png",
-    "static/media/customer02.png": "./static/media/customer02.b64b4b8d2b1a3b6abc8f.png",
-    "static/media/designer04.png": "./static/media/designer04.2b99cecfbfc788c887c0.png",
-    "static/media/designer01.png": "./static/media/designer01.0ad3b81446fbc0c695a2.png",
-    "static/media/homepageImg.png": "./static/media/homepageImg.cc82469ed91b3241b2ff.png",
+    "static/media/designer01.png": "./static/media/designer01.5265d81392a360948fa5.png",
+    "static/media/designer04.png": "./static/media/designer04.d67c410cbc6f65892019.png",
+    "static/media/designer03.png": "./static/media/designer03.d8ea568f588227ac7cc2.png",
+    "static/media/introduce02.png": "./static/media/introduce02.8eadce63dfefe9836a4b.png",
+    "static/media/introduce03.png": "./static/media/introduce03.602a5cb43b79c8ebc9a1.png",
+    "static/media/reserve.png": "./static/media/reserve.64f3ce1c2ba828f47a4a.png",
+    "static/media/customer03.png": "./static/media/customer03.9e0a658cf7938596a4e2.png",
+    "static/media/customer01.png": "./static/media/customer01.f55a7f4c0926c3aa41ab.png",
+    "static/media/homepageImg.png": "./static/media/homepageImg.f7df6895afb80bd4ce79.png",
+    "static/media/designer02.png": "./static/media/designer02.346658124959a3f3f25a.png",
+    "static/media/customer02.png": "./static/media/customer02.bb061865a09db7633f56.png",
+    "static/media/introduce01.png": "./static/media/introduce01.7b4810fc00a948303900.png",
     "static/media/scissors.png": "./static/media/scissors.44950d1a801d3c42431b.png",
     "static/media/razor01.png": "./static/media/razor01.0cf2e2edce44ad664743.png",
     "static/media/footer04.png": "./static/media/footer04.6eb0d7e6ec3da4b1b1d2.png",
@@ -24,11 +24,11 @@
     "static/media/footer02.png": "./static/media/footer02.8e65601e69067aadfe55.png",
     "static/media/hair-product.png": "./static/media/hair-product.f395549d3745c9603008.png",
     "index.html": "./index.html",
-    "main.866d8504.css.map": "./static/css/main.866d8504.css.map",
-    "main.6ce41b8c.js.map": "./static/js/main.6ce41b8c.js.map"
+    "main.beb4c34f.css.map": "./static/css/main.beb4c34f.css.map",
+    "main.834ae1de.js.map": "./static/js/main.834ae1de.js.map"
   },
   "entrypoints": [
-    "static/css/main.866d8504.css",
-    "static/js/main.6ce41b8c.js"
+    "static/css/main.beb4c34f.css",
+    "static/js/main.834ae1de.js"
   ]
 }
